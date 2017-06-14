@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <title>Movie Tickets</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#"><img src="img/md.png" class="logo"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Available Movies</a></li>
+          <li><a href="#">Buy Tickets</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel
+================================================== -->
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/mummy.jpg" class="img-responsive img1">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>THE MUMMY</h1>
+            <p>An ancient princess is awakened from her crypt beneath the desert, bringing with her malevolence grown over millennia, and terrors that defy human comprehension. </p>
+            <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small="">
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#">Buy Ticket</a>
+              </p>
+            </pthis>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/dstrange.jpg" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>DOCTOR STRANGE</h1>
+            <p>While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</p>
+            <p><a class="btn btn-large btn-primary" href="#">Buy Ticket</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/bossbaby.jpg" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>BOSS BABY</h1>
+            <p>A suit-wearing, briefcase-carrying baby pairs up with his 7-year old brother to stop the dastardly plot of the CEO of Puppy Co. </p>
+            <p><a class="btn btn-large btn-primary" href="#">Buy Ticket</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/alien.jpg" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>ALIEN COVENANT</h1>
+            <p>While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</p>
+            <p><a class="btn btn-large btn-primary" href="#">Buy Ticket</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="circular">
+          <i class="fa fa-imdb fa-5x center"></i>
+          <p class="text-center pc">All movies are IMDB RATED. Nothing but the best</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="circular">
+          <img src="img/1080.png" class="img2">
+          <p class="text-center pc">Full HD movies. High in quality</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="circular">
+          <i class="fa fa-mobile fa-5x center"></i>
+          <p class="text-center pc">Buy tickets Anywhere. From your phone laptop wherever</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-4">
+            <img src="img/thor.jpg" class="bodyimg">
+            <h5 class="bodyimg">Thor Ragnarok</h5>
+            <ul class="list-unstyled bodyimg">
+              <li>98% Rotten Tomatoes</li>
+              <li><a href="#" data-toggle="modal" data-target="#myModal1">View details</a></li>
+            </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Thor Ragnarok</h4>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="560" height="200" src="https://www.youtube.com/embed/-oX6EokOeqo" frameborder="0" allowfullscreen></iframe>
+                    <div class="col-md-6">
+                      <form id="movie">
+                        <div class="form-group">
+                          <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="time" class="form-control" placeholder="Enter your Time">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="age" class="form-control" placeholder="Enter your age">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <div id="output">
+                        <ul id="out">
+                          <li>
+                            <h6>Name:</h6>
+                            <p class="name"></p>
+                          </li>
+                          <li>
+                            <h6>Age Factor</h6>
+                            <p class="age"></p>
+                          </li>
+                          <li>
+                            <h6>Price</h6>
+                            <p class="price"></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="img/gurdians.jpg" class="bodyimg">
+            <h5 class="bodyimg">Gurdians of The Galaxy</h5>
+            <ul class="list-unstyled bodyimg">
+              <li>98% Rotten Tomatoes</li>
+              <li><a href="#" data-toggle="modal" data-target="#myModal">View details</a></li>
+            </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dW1BIid8Osg" frameborder="0" allowfullscreen></iframe>
+                    <div class="col-md-6">
+                      <form id="movie">
+                        <div class="form-group">
+                          <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="time" class="form-control" placeholder="Enter your Time">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="age" class="form-control" placeholder="Enter your age">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <div id="output">
+                        <ul id="out">
+                          <li>
+                            <h6>Name:</h6>
+                            <p class="name"></p>
+                          </li>
+                          <li>
+                            <h6>Age Factor</h6>
+                            <p class="age"></p>
+                          </li>
+                          <li>
+                            <h6>Price</h6>
+                            <p class="price"></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="img/underword.jpg" class="bodyimg">
+            <h5 class="bodyimg">Underworld</h5>
+            <ul class="list-unstyled bodyimg">
+              <li class="">98% Rotten Tomatoes</li>
+              <li><a href="#" data-toggle="modal" data-target="#myModal2">View details</a></li>
+            </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="560" height="200" src="https://www.youtube.com/embed/Jgj9Znp76PE" frameborder="0" allowfullscreen></iframe>
+                    <div class="col-md-6">
+                      <form id="movie">
+                        <div class="form-group">
+                          <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="time" class="form-control" placeholder="Enter your Time">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" id="age" class="form-control" placeholder="Enter your age">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <div id="output">
+                        <ul id="out">
+                          <li>
+                            <h6>Name:</h6>
+                            <p class="name"></p>
+                          </li>
+                          <li>
+                            <h6>Age Factor</h6>
+                            <p class="age"></p>
+                          </li>
+                          <li>
+                            <h6>Price</h6>
+                            <p class="price"></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+
+</body>
+
+</html>
